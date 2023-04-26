@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+.container {
+    width: 262px;
+    margin: auto;
+    background-color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 100px;
+    border: 2px solid black;
+    border-radius: 5px;
+    
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    width: auto;
+}
+.input {
+    width: 250px;
+    color: aliceblue;
+    background-color: black;
+    font-size: 20px;
+    margin: 5px 0px;
+    padding-top: 50px;
+    border-radius: 5px;
+    font-weight: 600;
+    text-align: right;
+    border: none;
+}
+button {
+    width: 59px;
+    color: aliceblue;
+    padding: 15px;
+    margin: 2px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: rgb(47, 48, 48);
+}
+
+.btn-2 {
+    width: 122px;
+}
+
+.btn-3 {
+    background-color: rgb(16, 219, 233);
+}
+
+.btn-4 {
+    color: rgb(16, 219, 233);
+}
+.btn-5{background-color: rgb(120, 122, 122);}
+
+
+@media screen and (max-width:580px){
+    .container {
+        width: 330px;
+        height: 500px;
+        
+    }
+    .input {
+        width: 300px;
+        font-size: 35px;
+        padding: 5px;
+        padding-top: 60px;
+        
+        }
+    button {
+            width: 71px;
+            padding: 18px 0px;
+            font-size: 25px;
+            font-weight: 600;
+            margin: 1px 5px;
+        }
+    .btn-2 {
+                width: 152px;
+            }
+}
